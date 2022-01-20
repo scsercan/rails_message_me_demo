@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+------------------------------------------------------------------
+- Rails 5.2.6
+- Semantic UI
