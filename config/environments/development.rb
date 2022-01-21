@@ -63,6 +63,4 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
   # For Deployment
   # config.action_cable.allowed_request_origins = ['https://c9.io Your address'] 
-  # For Deployment
-  config.action_cable.allowed_request_origins = ['https://src-rails-demo-messaging.herokuapp.com/'] 
 end
