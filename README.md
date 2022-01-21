@@ -26,3 +26,5 @@ Things you may want to cover:
 ------------------------------------------------------------------
 - Rails 5.2.6
 - Semantic UI
+- WebSocket Protocol
+- Action Cable
