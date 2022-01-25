@@ -17,6 +17,7 @@
 // Loads all Semantic javascripts
 //= require jquery
 //= require semantic-ui
+//= require_tree ./channels
 
 scroll_bottom = function() {
     if ($('#messages').length > 0) {

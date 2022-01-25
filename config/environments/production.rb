@@ -97,6 +97,8 @@ Rails.application.configure do
   
   
   # For Deployment
-  config.action_cable.disable_request_forgery_protection = true
-  config.action_cable.allowed_request_origins = ['https://src-rails-demo-messaging.herokuapp.com'] 
+  # config.action_cable.disable_request_forgery_protection = true
+  # config.action_cable.allowed_request_origins = ['https://src-rails-demo-messaging.herokuapp.com'] 
+  config.web_socket_server_url = "wss://src-rails-demo-messaging.herokuapp.com/cable" 
+  config.action_cable.allowed_request_origins = ['https://asrc-rails-demo-messaging.herokuapp.com', 'http://src-rails-demo-messaging.herokuapp.com']
 end
